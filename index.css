@@ -1650,7 +1650,7 @@ input:focus {
     /*border-radius: 5px;*/
 }
 input:focus::-webkit-input-placeholder {
-  transform: translateY(-130%);
+  transform: translateY(-100%);
   font-size: 14px;
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
