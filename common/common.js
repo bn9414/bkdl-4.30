@@ -46,7 +46,7 @@ $(window).on('scroll', function () {
       sections.removeClass('active');
       
       /*$(this).addClass('active');*/
-        console.log($(this));
+       
       nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
     }
   });
@@ -98,7 +98,7 @@ function toogle(){
         
         bar2.style.opacity="1";
         bar2.style.transition="opacity 0.7s";
-        bar2.style.background="#993233";
+        bar2.style.background="#c71484a6";
         bar1.style.position="static";
         
         bar1.style.transform="rotate(0deg)";
@@ -119,7 +119,7 @@ var mnulist1 = document.getElementById('navlst');
         bar1.style.position="relative";
         bar1.style.transform="rotate(45deg)";
         bar1.style.transition=".4s";
-        bar1.style.top="12px";
+        bar1.style.top="8px";
         
         bar2.style.opacity="0";
         bar2.style.transition="opacity 0.1s";

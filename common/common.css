@@ -77,15 +77,16 @@ a{
 .bar-con{
     position: absolute;
        top: 20px;
-    left: 10px;display: none;
+    left: 10px;
+    
 }
 .bar{
    
-    width: 35px;
-    height: 5px;
-    background-color:#C71484;
+        width: 30px;
+    height: 3px;
+    background-color: #c71484a6;
     margin: 6px 0;
-
+    cursor: pointer;
 }
 
 .nav{
