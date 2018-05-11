@@ -45,7 +45,7 @@ $(window).on('scroll', function () {
       nav.find('a').removeClass('active');
       sections.removeClass('active');
       
-      /*$(this).addClass('active');*/
+      
        
       nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
     }
